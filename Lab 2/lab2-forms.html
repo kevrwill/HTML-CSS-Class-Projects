@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Lab 2 – Coffee Order Form
+        </title>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+             
+            body {
+                padding-top: 3rem;
+                max-width: 960px;
+                margin: 0 auto;
+            }
+
+            h1, a {
+                color: #077A7D;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            h2, p {
+                color: #06202B;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+
+            p, a {
+                font-size: 1.2rem;
+            }
+
+        </style>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kevin Wilson">
+        <meta name="description" content="If you'd like a coffee, please order it here.">
+    </head>
+    <body>
+        <h1>5C's Coffee</h1>
+        <h2>Cuyahoga Community College Custom Coffees</h2>
+        <p>Would you like a coffee? This is the place to get it. Although, you won't actually get it, unfortunately. But you can imagine it.</p>
+       <form action="https://w3schools.com/action_page.php" method="get">
+            <p>Please enter your information to place your order:</p>
+            <label>Customer Name: <input type="text" name="customer-name" required></label><br><br>
+
+            <label>Email Address: <input type="email" name="email-address" required></label><br><br>
+
+            <label>Coffee Type:
+                <select name="coffee-type">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="espresso">Espresso</option>
+                </select>
+            </label><br><br>
+
+            Size:
+            <label><input type="radio" name="size" value="small" checked> Small</label>
+            <label><input type="radio" name="size" value="medium"> Medium</label>
+            <label><input type="radio" name="size" value="large"> Large</label><br><br>
+
+            Extras:
+            <label><input type="checkbox" name="extras" value="whipped"> Whipped Cream</label>
+            <label><input type="checkbox" name="extras" value="shot"> Extra Shot</label>
+            <label><input type="checkbox" name="extras" value="almondmilk"> Almond Milk</label><br><br>
+
+            <label>Special Instructions:<br>
+                <textarea name="special-instructions" rows="3"></textarea>
+            </label><br><br>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </body>
+</html>
