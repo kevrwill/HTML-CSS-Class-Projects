@@ -1,39 +1,63 @@
-/*In the same folder, create a CSS file named lab3-styles.css with the following requirements:
+:root {
+  --primary-bg-color: #D9FFF4;
+  --primary-color: #43637E;
+  --text-color: #321E48; 
+  --secondary-color: #65DCD5;
+  --neutral-gray: #EEF3F6; 
 
-Global Styles
+}
+body {
+    color:  var(--primary-bg-color);
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    margin: 3rem auto 0;
+    
+}
 
-Set a light background color for the entire page.
+/*Header Styling*/
+/*Set a custom color for the <h1> text.*/
+/*Center the <h1>*/
 
-Apply Arial, sans-serif as the font for the page.
+header h1 {
+    color:  var(--primary-color);
+    text-align: center;
+}
 
-Header Styling
+/*Paragraph Styling*/
+/*Change the text color.*/
+/*Add 10px padding.*/
+p {
+    color: var(--text-color);
+    padding: 10px;
+}
 
-Set a custom color for the <h1> text.
+/*List Styling*/
+/*Change bullet color for the unordered list.*/
+/*Set a different color for list items.*/
+ul li {
+    color: var(--primary-color);
+}
 
-Center the <h1>.
+ul li::marker {
+    color: var(--secondary-color);
+}
 
-Paragraph Styling
+/*Link Styling*/
+/*Make the default link color blue.*/
+/*Remove underline on hover.*/
+a {
+    color: var(--primary-color)/*blue*/;
+    text-decoration: none;
+}
 
-Change the text color.
-
-Add 10px padding.
-
-List Styling
-
-Change bullet color for the unordered list.
-
-Set a different color for list items.
-
-Link Styling
-
-Make the default link color blue.
-
-Remove underline on hover.
-
-Box Styling
-
-Add a solid border around .styled-box.
-
-Set the background color to light gray.
-
-Add 15px padding and center-align the content.*/
+/*Box Styling*/
+/*Add a solid border around .styled-box.*/
+/*Set the background color to light gray.*/
+/*Add 15px padding and center-align the content.*/
+.styled-box {
+    border: 1px solid var(--primary-color);
+    background-color: var(--neutral-gray);
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
