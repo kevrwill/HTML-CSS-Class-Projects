@@ -5,7 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Styling Text and Fonts</title>
   <style>
-    /* Your CSS goes here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: light;
+      text-transform: uppercase;
+    }
+
+    h1, 
+    footer {
+      text-align: center;
+    }
+    
+    p {
+      line-height: 1.6;
+    }
+
+    li {
+      margin: 1rem;
+    }
+
+    .capitalized {
+      text-transform: capitalize;
+    }
+
+  .shadow-red {
+      text-shadow: red;
+    }
+  
+  .shadow-gray {
+    text-shadow: gray;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+ol {
+  list-style-type: upper-roman;
+}
   </style>
 </head>
 <body>
@@ -23,11 +68,11 @@
     </section>
     <section>
       <h2>Transforming Text</h2>
-      <p>This paragraph demonstrates text transformation with uppercase, lowercase, and capitalization.</p>
+      <p class="capitalized">This paragraph demonstrates text transformation with uppercase, lowercase, and capitalization.</p>
     </section>
     <section>
-      <h2>Text Shadow</h2>
-      <p>This paragraph demonstrates how to add shadow effects to text.</p>
+      <h2 class="shadow-red">Text Shadow</h2>
+      <p class="shadow-gray">This paragraph demonstrates how to add shadow effects to text.</p>
     </section>
     <section>
       <h2>Lists</h2>
