@@ -16,19 +16,16 @@ body {
   grid-area: content;
 }
 
+.flex-container,
+.nav ul{
+    display: flex;
+}
+
 .nav {
   grid-area: nav;
+  
 }
 
 .footer {
   grid-area: footer;
-}
-
-/*areas to try out or add*/
-
-.side {
-  grid-area: sidebar;
-}
-.ad {
-  grid-area: ad;
 }
