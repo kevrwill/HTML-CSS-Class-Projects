@@ -21,6 +21,11 @@ body {
     display: flex;
 }
 
+.nav ul li,
+.flex-item {
+    padding: 0 2rem;
+}
+
 .nav {
   grid-area: nav;
   
