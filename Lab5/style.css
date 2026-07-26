@@ -1,6 +1,12 @@
 body {
     display: grid;
+    grid-template-areas: 
+    "header  header  header"
+    "nav     content ad"
+    "sidebar content ad"
+    "footer  footer  footer";
 }
+
 
 .header {
   grid-area: header;
