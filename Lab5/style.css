@@ -1,0 +1,28 @@
+body {
+    display: grid;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main-content {
+  grid-area: content;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/*areas to try out or add*/
+
+.side {
+  grid-area: sidebar;
+}
+.ad {
+  grid-area: ad;
+}
