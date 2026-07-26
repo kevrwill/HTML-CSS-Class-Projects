@@ -19,6 +19,7 @@ body {
 .flex-container,
 .nav ul{
     display: flex;
+    list-style-type: none;
 }
 
 .nav ul li,
