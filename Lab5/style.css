@@ -108,7 +108,7 @@ main h2 {
     flex-direction: row;
   }
 
-  .nav, .flex-container {
+  .nav ul, .flex-container {
     position: relative;
     left: -28px;
   }
