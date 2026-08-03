@@ -54,8 +54,15 @@ nav a {
 .flex-container,
 .nav ul{
     display: flex;
+    flex-direction: column;
     list-style-type: none;
     padding: 0;
+}
+
+@media (min-width: 1024px) {
+  flex-container, .nav ul {
+    flex-direction: row;
+  }
 }
 
 .nav ul li,
