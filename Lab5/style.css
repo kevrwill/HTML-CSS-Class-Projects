@@ -59,16 +59,22 @@ nav a {
     padding: 0;
 }
 
+.nav ul li {
+  margin: 0 2 rem;
+}
+
 @media (min-width: 1024px) {
   flex-container, .nav ul {
     flex-direction: row;
   }
+
+  .nav ul li,
+  .flex-item:not(:nth-child(1)) {
+      margin: 0 2rem;
+  }
 }
 
-.nav ul li,
-.flex-item:not(:nth-child(1)) {
-    margin: 0 2rem;
-}
+
 
 .flex-item {
   display: flex;
