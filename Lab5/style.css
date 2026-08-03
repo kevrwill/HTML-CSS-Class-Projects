@@ -65,7 +65,7 @@ nav a {
 
 .nav ul li, 
 .flex-item {
-  margin: 0 2rem;
+  margin: 1rem 0;
 }
 
 .nav {
@@ -80,6 +80,11 @@ nav a {
   .nav, .flex-container {
     position: relative;
     left: -28px;
+  }
+
+    .nav ul li, 
+  .flex-item {
+    margin: 0 2rem;
   }
 
 }
