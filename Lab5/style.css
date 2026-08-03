@@ -1,12 +1,12 @@
+/*CSS vars in use. Color palette and reference:*/
+/*https://colorhunt.co/palette/e4e0e1d6c0b3ab886d493628*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties*/
 :root {
   --darkbrown: #493628;
   --tan: #AB886D;
   --lighttan: #D6C0B3;
   --light: #E4E0E1;
 }
-
-/*https://colorhunt.co/palette/e4e0e1d6c0b3ab886d493628*/
-/*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties*/
 
 body {
   display: grid;
