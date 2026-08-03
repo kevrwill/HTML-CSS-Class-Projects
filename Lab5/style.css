@@ -63,17 +63,26 @@ nav a {
     padding: 0;
 }
 
-.nav ul li {
-  margin: 0 2 rem;
+.nav ul li, 
+.flex-item {
+  margin: 0 2rem;
 }
+
+.nav {
+  grid-area: nav;
+} 
 
 @media (min-width: 1024px) {
   .flex-container, .nav ul {
     flex-direction: row;
   }
+
+  .nav {
+    position: relative;
+    left: -22px;
+  }
+
 }
-
-
 
 .flex-item {
   display: flex;
@@ -85,12 +94,6 @@ nav a {
   margin-right: 10px;
   width: 24px;
   text-align: center;
-}
-
-.nav {
-  grid-area: nav;
-  position: relative;
-  left: -12px;
 }
 
 .footer {
