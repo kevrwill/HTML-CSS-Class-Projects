@@ -72,6 +72,10 @@ nav a {
   grid-area: nav;
 } 
 
+.flex-container * {
+  color: var(--darkbrown);
+}
+
 .flex-item {
   display: flex;
   align-items: center;
@@ -104,8 +108,8 @@ nav a {
     position: relative;
     left: -28px;
   }
-
-    .nav ul li, 
+ 
+  .nav ul li, 
   .flex-item {
     margin: 0 2rem;
   }
