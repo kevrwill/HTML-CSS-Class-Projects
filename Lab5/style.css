@@ -6,16 +6,31 @@ body {
     "content content content"
     "footer  footer  footer";
     font-family: sans-serif;
-    margin: 0;
+  margin: 0;
 }
 
 header, main, footer, nav {
-  margin: 20px;
+  padding: 20px;
+}
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 1rem 0 2rem 0;
 }
 
 .header {
   grid-area: header;
-  background-color: saddlebrown;
+  background-color: #493628;
+}
+
+nav {
+  background-color: #D6C0B3;
+}
+
+nav a {
+  color: #493628;
 }
 
 .header h1, .header p {
@@ -33,11 +48,6 @@ header, main, footer, nav {
     padding: 0;
 }
 
-nav ul {
-      position: relative;
-    left: -12px;
-}
-
 .nav ul li,
 .flex-item:not(:nth-child(1)) {
     margin: 0 2rem;
@@ -45,7 +55,8 @@ nav ul {
 
 .nav {
   grid-area: nav;
-  
+  position: relative;
+  left: -12px;
 }
 
 .footer {
