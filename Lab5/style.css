@@ -79,7 +79,6 @@ nav a {
 .flex-item {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
