@@ -64,7 +64,7 @@ nav a {
 }
 
 @media (min-width: 1024px) {
-  flex-container, .nav ul {
+  .flex-container, .nav ul {
     flex-direction: row;
   }
 
