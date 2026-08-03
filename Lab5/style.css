@@ -40,7 +40,7 @@ nav {
 }
 
 nav a {
-  color: #493628;
+  color: var(--light);
 }
 
 .header h1, .header p {
