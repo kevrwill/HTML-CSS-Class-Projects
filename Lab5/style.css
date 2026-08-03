@@ -5,6 +5,9 @@
   --light: #E4E0E1;
 }
 
+/*https://colorhunt.co/palette/e4e0e1d6c0b3ab886d493628*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties*/
+
 body {
     display: grid;
     grid-template-areas: 
