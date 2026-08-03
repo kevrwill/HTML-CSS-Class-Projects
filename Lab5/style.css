@@ -1,3 +1,10 @@
+:root {
+  --darkbrown: #493628;
+  --tan: #AB886D;
+  --lighttan: #D6C0B3;
+  --light: #E4E0E1;
+}
+
 body {
     display: grid;
     grid-template-areas: 
@@ -22,11 +29,11 @@ h1, h2 {
 
 .header {
   grid-area: header;
-  background-color: #493628;
+  background-color: var(--darkbrown);
 }
 
 nav {
-  background-color: #D6C0B3;
+  background-color: var(--tan);
 }
 
 nav a {
@@ -34,7 +41,7 @@ nav a {
 }
 
 .header h1, .header p {
-  color: white;
+  color: var(--light);
 }
 
 .main-content {
