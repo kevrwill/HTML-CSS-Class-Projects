@@ -72,6 +72,29 @@ nav a {
   grid-area: nav;
 } 
 
+.flex-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: .5rem;
+}
+
+.flex-item .fa-mug-hot {
+  position: relative;
+  bottom: 5px;
+  font-size: 24px;
+}
+
+.flex-item i {
+  margin-right: 10px;
+  width: 24px;
+  text-align: center;
+}
+
+.footer {
+  grid-area: footer;
+}
+
 @media (min-width: 1024px) {
   .flex-container, .nav ul {
     flex-direction: row;
@@ -87,21 +110,4 @@ nav a {
     margin: 0 2rem;
   }
 
-}
-
-.flex-item {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  gap: .5rem;
-}
-
-.flex-item i {
-  margin-right: 10px;
-  width: 24px;
-  text-align: center;
-}
-
-.footer {
-  grid-area: footer;
 }
