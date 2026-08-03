@@ -23,10 +23,6 @@ header, main, footer, nav {
   padding: 20px;
 }
 
-main {
-  padding: 20px;
-}
-
 h1, h2 {
   margin: 1rem 0 2rem 0;
 }
