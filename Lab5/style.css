@@ -77,7 +77,7 @@ nav a {
     flex-direction: row;
   }
 
-  .nav {
+  .nav, .flex-container {
     position: relative;
     left: -22px;
   }
