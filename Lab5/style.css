@@ -9,13 +9,13 @@
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties*/
 
 body {
-    display: grid;
-    grid-template-areas: 
-    "header  header  header"
-    "nav nav nav"
-    "content content content"
-    "footer  footer  footer";
-    font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-areas: 
+  "header  header  header"
+  "nav nav nav"
+  "content content content"
+  "footer  footer  footer";
+  font-family: Arial, sans-serif;
   margin: 0;
 }
 
@@ -58,10 +58,10 @@ main h2 {
 
 .flex-container,
 .nav ul{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
 }
 
 .nav ul li, 
