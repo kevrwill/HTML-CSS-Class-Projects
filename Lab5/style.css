@@ -93,6 +93,7 @@ nav a {
   display: flex;
   align-items: center;
   font-size: 18px;
+  gap: .5rem;
 }
 
 .flex-item i {
