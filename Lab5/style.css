@@ -71,11 +71,6 @@ nav a {
   .flex-container, .nav ul {
     flex-direction: row;
   }
-
-  .nav ul li,
-  .flex-item:not(:nth-child(1)) {
-      margin: 0 2rem;
-  }
 }
 
 
