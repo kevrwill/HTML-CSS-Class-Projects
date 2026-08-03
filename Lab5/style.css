@@ -6,9 +6,10 @@ body {
     "content content content"
     "footer  footer  footer";
     font-family: sans-serif;
+    margin: 0;
 }
 
-header, main, footer {
+header, main, footer, nav {
   padding: 20px;
 }
 
@@ -30,6 +31,11 @@ header, main, footer {
     display: flex;
     list-style-type: none;
     padding: 0;
+}
+
+nav ul {
+      position: relative;
+    left: -12px;
 }
 
 .nav ul li,
