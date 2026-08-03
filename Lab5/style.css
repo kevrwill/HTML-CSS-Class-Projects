@@ -30,6 +30,10 @@ h1, h2 {
   margin: 1rem 0 2rem 0;
 }
 
+p {
+  color: var(--darkbrown);
+}
+
 .header {
   grid-area: header;
   background-color: var(--darkbrown);
